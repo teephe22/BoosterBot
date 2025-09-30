@@ -10,7 +10,7 @@ async def start(message: types.Message):
     markup = types.ReplyKeyboardMarkup(
         keyboard=[
             [types.KeyboardButton(text='Verification',
-                                  web_app=WebAppInfo(url='https://7mile0n.github.io/verify/'))]
+                                  web_app=WebAppInfo(url='https://teephe22.github.io/boosterbot/'))]
         ],
         resize_keyboard=True
     )
